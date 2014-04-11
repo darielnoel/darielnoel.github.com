@@ -12,7 +12,7 @@ share: true
 
 Según estudios realizados por una prestigiosa agencia más del 90% de los programadores prefieren documentar el codigo fuente a escribirlo. ¿Qué?
 
-Mi primera reacción fue pensar, ¿Es posible que el mundo halla cambiado tan rápido sin que me halla dado cuenta? Le pregunté a otros programadores del equipo si creían que el misterioso titular fuera cierto, y muy serios asintieron. En mi mente el recuerdo vigente de lo tedioso que resultaba para mi, comentar el código fuente que había escrito, sobre todo aquellas funciones que con solo leer el nombre ya se sabía lo que hacían. Además de tener que actualizar la documentacion cada vez que se realizaba algún cambio.
+Mi primera reacción fue pensar, ¿Es posible que el mundo halla cambiado tan rápido sin que me halla dado cuenta? Le pregunté a otros programadores del equipo si creían que el misterioso titular fuera cierto, y muy serios asintieron. Me inquietaba lo tedioso que resultaba para mi, comentar el código fuente que había escrito, sobre todo aquellas funciones que con solo leer el nombre ya se sabía lo que hacían. Además de tener que actualizar la documentación cada vez que se realizaba algún cambio.
 
 Pero, ¿Por qué yo no lo disfrutaba y otras personas si? En medio de ese dilema estaba cuando alguien estalló en carcajadas y fue entonces que noté las caras sonrientes de mis compañeros de equipo... Uff, menos mal que era una broma.
 
