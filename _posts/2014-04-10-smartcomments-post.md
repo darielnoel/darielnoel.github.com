@@ -8,18 +8,6 @@ comments: true
 share: true
 ---
 
-TODO: 
-
-  Hay que ver el tema de compilar con less, etc
-
-  Ver el tema de los titulos largos para los articulos en frontpage.
-
-  Ver el tamaño tipografia titulos, de los articulos.
-
-  Poner lo de google analitycs.
-
-
-
 ###Introducción
 
 Según estudios realizados por una prestigiosa agencia más del 90% de los programadores prefieren documentar el código fuente a escribirlo. ¿Qué?
