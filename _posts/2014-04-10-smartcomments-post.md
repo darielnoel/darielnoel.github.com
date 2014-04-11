@@ -10,15 +10,15 @@ share: true
 
 ###Introducción
 
-Según estudios realizados por una prestigiosa agencia más del 90% de los programadores prefieren documentar el codigo fuente a escribirlo. ¿Qué?
+Según estudios realizados por una prestigiosa agencia más del 90% de los programadores prefieren documentar el código fuente a escribirlo. ¿Qué?
 
 Mi primera reacción fue pensar, ¿Es posible que el mundo halla cambiado tan rápido sin que me halla dado cuenta? Le pregunté a otros programadores del equipo si creían que el misterioso titular fuera cierto, y muy serios asintieron. Me inquietaba lo tedioso que resultaba para mi, comentar el código fuente que había escrito, sobre todo aquellas funciones que con solo leer el nombre ya se sabía lo que hacían. Además de tener que actualizar la documentación cada vez que se realizaba algún cambio.
 
-Pero, ¿Por qué yo no lo disfrutaba y otras personas si? En medio de ese dilema estaba cuando alguien estalló en carcajadas y fue entonces que noté las caras sonrientes de mis compañeros de equipo... Uff, menos mal que era una broma.
+¿Por qué yo no lo disfrutaba y otras personas si? De ese dilema salí sólo tras las carcajadas de mis compañeros de equipo... Uff, menos mal que era una broma.
 
 ###Desarrollo
 
-Muchos utilizamos herramientas como [YUIDocs](http://yui.github.io/yuidoc/), o [JSDocs](http://usejsdoc.org/), entre [otras](http://www.lsauer.com/2013/05/javascript-documentation-generator.html) para generar la documentación de nuestros proyectos. éstas necesitan una serie se parámetros de entrada que deben ser escritos de manera [explícita](http://metajack.wordpress.com/2008/07/01/the-state-of-javascript-documentation-tools/), por los programadores como por ejemplo:
+Muchos utilizamos herramientas como [YUIDocs](http://yui.github.io/yuidoc/), o [JSDocs](http://usejsdoc.org/), entre [otras](http://www.lsauer.com/2013/05/javascript-documentation-generator.html) para generar la documentación de nuestros proyectos. Estas necesitan una serie de parámetros de entrada que deben ser escritos de manera [explícita](http://metajack.wordpress.com/2008/07/01/the-state-of-javascript-documentation-tools/), por los programadores como por ejemplo:
 
 {% highlight javascript %}
 /**
@@ -30,7 +30,7 @@ Muchos utilizamos herramientas como [YUIDocs](http://yui.github.io/yuidoc/), o [
  */
 {% endhighlight %}
 
-Para muchos éste proceso puede resultar algo tedioso, sobre todo si tenemos en cuenta que cuando ocurre un cambio en alguno de estos parámetros, como el nombre de la función por ejemplo, tenemos que actualizar la documentación correspondiente. 
+Para muchos este proceso puede resultar algo tedioso, sobre todo si tenemos en cuenta que cuando ocurre un cambio en alguno de estos parámetros, como el nombre de la función por ejemplo, tenemos que actualizar la documentación correspondiente. 
 
 También muchas veces hay partes de la documentación que pueden ser redundantes e innecesarias, es obvio que la funcion getNombre() devuelve el atributo nombre de la clase que la implemente, por solo tomar un ejemplo.
 
@@ -41,7 +41,7 @@ Según [@evangoer](https://twitter.com/evangoer) en la conferencia ["Thinking of
 
 - ¿Qué es lo que hace el código? 
 - ¿Cómo es que lo hace? 
-- ¿Porque lo hace?
+- ¿Por qué lo hace?
 
 [SmartComments](http://smartcomments.github.io/), es una herramienta de código abierto escrita en [Node.js](http://nodejs.org/) que puede automatizar y acelerar así considerablemente el proceso de generación de documentación. sobre todo respondiendo las preguntas (¿Qué? y ¿Cómo?). En la siguiente imagen se muestran las partes del ejemplo anterior que pueden ser generadas por [SmartComments](http://smartcomments.github.io/). 
 
