@@ -32,7 +32,7 @@ Muchos utilizamos herramientas como [YUIDocs](http://yui.github.io/yuidoc/), o [
  */
 {% endhighlight %}
 
-Para muchos este proceso puede resultar algo tedioso, sobre todo si tenemos en cuenta que cuando ocurre un cambio en alguno de estos parámetros, como el nombre de la función por ejemplo, tenemos que actualizar la documentación correspondiente.
+Este proceso puede resultar algo tedioso, sobre todo si tenemos en cuenta que cuando ocurre un cambio en alguno de estos parámetros, como el nombre de la función por ejemplo, tenemos que actualizar la documentación correspondiente.
 
 También muchas veces hay partes de la documentación que pueden ser redundantes e innecesarias, es obvio que la función getNombre() devuelve el atributo nombre de la clase que la implemente, por tomar un ejemplo.
 
@@ -45,7 +45,7 @@ Según [@evangoer](https://twitter.com/evangoer) en la conferencia ["Thinking of
 - ¿Cómo es que lo hace? 
 - ¿Por qué lo hace?
 
-[SmartComments](http://smartcomments.github.io/), es una herramienta de código abierto escrita en [Node.js](http://nodejs.org/) que puede automatizar y acelerar así considerablemente el proceso de generación de documentación. sobre todo respondiendo las preguntas (¿Qué? y ¿Cómo?). En la siguiente imagen se muestran las partes del ejemplo anterior que pueden ser generadas por [SmartComments](http://smartcomments.github.io/). 
+[SmartComments](http://smartcomments.github.io/), es una herramienta de código abierto escrita en [Node.js](http://nodejs.org/) mediante la que se puede automatizar y **acelerar** así considerablemente el proceso de generación de documentación. sobre todo respondiendo las preguntas (¿Qué? y ¿Cómo?). En la siguiente imagen se muestran las partes del ejemplo anterior que pueden ser generadas por [SmartComments](http://smartcomments.github.io/). 
 
 {% highlight javascript %}
 /**
@@ -79,7 +79,6 @@ Un caso de uso interesante planteado por [Mr. Rich Kilgore](https://github.com/r
 3. Luego se ejecuta [YUIDocs](http://yui.github.io/yuidoc/), para generar la documentación API.
 
 Esto ocurre de forma automatizada cada vez que se construye y se despliega el proyecto. La ventaja de esta filosofía de trabajo es que siempre la documentación API estará actualizada con los últimos cambios del código fuente. 
-
 
 Hay que señalar que [SmartComments](http://smartcomments.github.io/) es solo una herramienta, y como herramienta al fin solo puede hacer (por ahora) una parte del proceso. Siempre existen casos que necesitan de la intervención humana. Sobre todo a la hora de querer expresar la verdadera semántica de determinado código.
 
