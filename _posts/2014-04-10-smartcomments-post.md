@@ -16,6 +16,8 @@ Mi primera reacción fue pensar, ¿Es posible que el mundo halla cambiado tan r�
 
 ¿Por qué yo no lo disfrutaba y otras personas si? De ese dilema salí sólo tras las carcajadas de mis compañeros de equipo... Uff, menos mal que era una broma.
 
+---
+
 ###Desarrollo
 
 Muchos utilizamos herramientas como [YUIDocs](http://yui.github.io/yuidoc/), o [JSDocs](http://usejsdoc.org/), entre [otras](http://www.lsauer.com/2013/05/javascript-documentation-generator.html) para generar la documentación de nuestros proyectos. Estas necesitan una serie de parámetros de entrada que deben ser escritos de manera [explícita](http://metajack.wordpress.com/2008/07/01/the-state-of-javascript-documentation-tools/), por los programadores como por ejemplo:
@@ -81,7 +83,7 @@ Esto ocurre de forma automatizada cada vez que se construye y se despliega el pr
 
 Hay que señalar que [SmartComments](http://smartcomments.github.io/) es solo una herramienta, y como herramienta al fin solo puede hacer (por ahora) una parte del proceso. Siempre existen casos que necesitan de la intervención humana. Sobre todo a la hora de querer expresar la verdadera semántica de determinado código.
 
-
+---
 
 ###Conclusiones
 

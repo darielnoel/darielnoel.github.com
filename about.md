@@ -1,33 +1,35 @@
 ---
 layout: page
 permalink: /about/
-title: About the Jekyll Theme
-tags: [Jekyll, theme, simple, minimal, minimalism, responsive]
-modified: 2013-09-13
-image:
-  feature: so-simple-sample-image-4.jpg
-  credit: Michael Rose
-  creditlink: http://mademistakes.com
+title: About Me
+tags: [Dariel, about, projects, open source]
+modified: 2014-04-11
 ---
 
-Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the followup to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- by designer slash illustrator [Michael Rose](http://mademistakes).
+Front-End Engineer, experience with high performance interfaces, HTML5 applications architecture, UI design interfaces. Mainly focused on front-end development, YUI3, responsive design and designs patterns. I love create and work at open source projects in my free time.
 
-## So Simple Theme is all about:
+I feel very lucky to have worked on these projects:
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
-* Minimal embellishments and subtle animations. 
-* Readable typography to make your words shine.
-* Support for large images to call out your favorite posts.
-* Disqus comments if you choose to enable.
-* Simple and clear permalink structure[^1].
-* Tags for [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) for a better social sharing experience.
-* Vanilla [custom 404 page]({{ site.url }}/404.html) to get you started.
-* Stylesheets for Pygments and Coderay [syntax highlighting](http://mmistakes.github.io/articles/so-simple-theme/code-highlighting-post/) to make your code examples look snazzy.
-* Simple search that overlays results based on post title.
-* [Grunt build script]({{ site.url }}/theme-setup/index.html#theme-development) for easier theme development.
-* [Sitemap](https://github.com/mmistakes/so-simple-theme/blob/master/sitemap.xml) for search engines
+* [SmartComments](http://smartcomments.github.io/){:target="_blank"}
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install Minimal Mistakes Theme</a>
+	It's a tool that allow you to create implicit comments from javascript source code. You can integrate it with javascript documentation generators like YUIDocs.
 
-[^1]: Example: *domain.com/category-name/post-title*
+- [Twitter Voice Reader](http://voicereader.github.io/){:target="_blank"}
+
+	Text to Speech Google Engine demo through which you can listen Tweets Lists.
+
++ [AquiNaMa](http://aquinama.com/){:target="_blank"}
+
+	Search engine for classified ads in Cuba. It's was developed under strong designs patterns, using HTML5, CSS3, YUI3 framework javascript library, and Yahoo! Query Language (YQL).
+
+* [Thin CSS](http://thincss.github.io/){:target="_blank"}
+
+	Community project that allow to reduce the weight used on any Web page CSS files.
+
+- [LA Best Restaurants](http://labestrestaurants.github.io/){:target="_blank"}
+
+	Web aplication that allow to search restaurants in Los Angeles, California.
+
+* [BillPocket](http://billpocket.github.io/modules/transacciones/){:target="_blank"}
+	
+	Online admin dashboard for BillPocket Application, which allow to turn your smartphone or tablet into a POS terminal.
