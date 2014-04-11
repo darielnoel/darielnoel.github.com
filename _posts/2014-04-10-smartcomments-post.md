@@ -30,14 +30,14 @@ Muchos utilizamos herramientas como [YUIDocs](http://yui.github.io/yuidoc/), o [
  */
 {% endhighlight %}
 
-Para muchos este proceso puede resultar algo tedioso, sobre todo si tenemos en cuenta que cuando ocurre un cambio en alguno de estos parámetros, como el nombre de la función por ejemplo, tenemos que actualizar la documentación correspondiente. 
+Para muchos este proceso puede resultar algo tedioso, sobre todo si tenemos en cuenta que cuando ocurre un cambio en alguno de estos parámetros, como el nombre de la función por ejemplo, tenemos que actualizar la documentación correspondiente.
 
-También muchas veces hay partes de la documentación que pueden ser redundantes e innecesarias, es obvio que la funcion getNombre() devuelve el atributo nombre de la clase que la implemente, por solo tomar un ejemplo.
+También muchas veces hay partes de la documentación que pueden ser redundantes e innecesarias, es obvio que la función getNombre() devuelve el atributo nombre de la clase que la implemente, por tomar un ejemplo.
 
-Éstos fenómenos toman proporciones significativas cuando nos tenemos que hacer cargo de proyectos bastante avanzados y que tienen una escasa documentación.
+Estos fenómenos toman proporciones significativas cuando nos tenemos que hacer cargo de proyectos bastante avanzados y que tienen una escasa documentación.
 
 
-Según [@evangoer](https://twitter.com/evangoer) en la conferencia ["Thinking of Documentation as Code"](http://www.youtube.com/watch?v=mEvvc80ZYU8), en la mayoría de los casos al documentar el código fuente es muy útil el hacerse 3 preguntas:
+Según [@evangoer](https://twitter.com/evangoer) en la conferencia ["Thinking of Documentation as Code"](http://www.youtube.com/watch?v=mEvvc80ZYU8), al documentar el código fuente es útil hacerse 3 preguntas:
 
 - ¿Qué es lo que hace el código? 
 - ¿Cómo es que lo hace? 
@@ -64,7 +64,7 @@ Algunas de las funcionalidades de [SmartComments](http://smartcomments.github.io
 
  - [Plugin](http://smartcomments.github.io/#features) para (sublime text), que da acceso a las funciones de la aplicación a través de este editor y que además permite generar comentarios a una selección de texto, lo cual es una funcionalidad bastante útil.
  
- - Personalización mediante plantillas para la generación de documentación a eventos, clases, atributos, entre otros. Y en dependencia del estilo de códificación de nuestra empresa o framework.
+ - Personalización mediante plantillas para la generación de documentación a eventos, clases, atributos, entre otros. Y en dependencia del estilo de codificación de nuestra empresa o framework.
 
  - Versión online a modo de demostración que puede ser utilizada para la generación de metainformación si no se desea instalar la aplicación.
 
@@ -76,13 +76,13 @@ Un caso de uso interesante planteado por [Mr. Rich Kilgore](https://github.com/r
 
 3. Luego se ejecuta [YUIDocs](http://yui.github.io/yuidoc/), para generar la documentación API.
 
-Esto ocurre de forma automatizada cada vez que se construye y se despliega el proyecto. La ventaja de esta filosofía de trabajo es que siempre la documentación API está actualizada con los últimos cambios del código fuente. 
+Esto ocurre de forma automatizada cada vez que se construye y se despliega el proyecto. La ventaja de esta filosofía de trabajo es que siempre la documentación API estará actualizada con los últimos cambios del código fuente. 
 
 
-Hay que señalar que [SmartComments](http://smartcomments.github.io/) es solo una herramienta, y como herramienta al fin solo puede hacer (por ahora) una parte del proceso. Siempre existen casos complejos que necesitan de la intervención humana. Sobre todo a la hora de querer expresar la verdadera semántica de determinado código.
+Hay que señalar que [SmartComments](http://smartcomments.github.io/) es solo una herramienta, y como herramienta al fin solo puede hacer (por ahora) una parte del proceso. Siempre existen casos que necesitan de la intervención humana. Sobre todo a la hora de querer expresar la verdadera semántica de determinado código.
 
 
 
 ###Conclusiones
 
-[SmartComments](http://smartcomments.github.io/) puede ser muy útil a la hora de automatizar el proceso de generación de documentación, ahorrándonos horas de esfuerzo, y permitiendo que nuestra documentación siempre esté actualizada con los últimos cambios en el código fuente. Si quieres colaborar con este proyecto open source, puedes hacerlo mediante [github](https://github.com/smartcomments/smartcomments).  
+[SmartComments](http://smartcomments.github.io/) puede ser muy útil a la hora de automatizar el proceso de generación de documentación, ahorrándonos horas de esfuerzo, y permitiendo que nuestra documentación siempre esté actualizada con los últimos cambios en el código fuente. Si quieres colaborar con este proyecto open source, puedes hacerlo mediante [github](https://github.com/smartcomments/smartcomments).
