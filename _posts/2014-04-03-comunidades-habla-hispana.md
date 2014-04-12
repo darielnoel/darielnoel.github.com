@@ -8,7 +8,7 @@ comments: true
 share: true
 ---
 
-Hola amigos,  heme aquí cumpliendo mi promesa anterior, éste post es una pequeña recopilación de algunas de las comunidades de desarrollo FrontEnd de habla hispana.
+Hola amigos,  heme aquí cumpliendo mi [promesa anterior]({% post_url 2014-04-02-helloworld %}), éste post es una pequeña recopilación de algunas de las comunidades de desarrollo FrontEnd de habla hispana.
 
 <figure>
 	<a href="http://html5facil.com/"><img src="/images/2014-04-03-comunidades-habla-hispana/html5-facil.png"></a>
