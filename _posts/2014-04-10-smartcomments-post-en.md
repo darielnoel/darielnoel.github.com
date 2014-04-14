@@ -1,99 +1,96 @@
 ---
 layout: post
-title: SmartComments, automatically comments the JavaScript code.
+title: SmartComments, automatically comments the JavaScript code(En).
 description: "SmartComments, automatically comments the JavaScript code."
 category: articles
 tags: [automatically comments, javascript]
 comments: true
 share: false
 ---
-###Resumen
+###Abstract
 
 [SmartComments](http://smartcomments.github.io/) is a module for Node. JS that can be useful to automate documentation generation process, Using it you can save time and effort, allowing that your documentation can be always up to date, with last source code updates.
 
-###Introducción
+###Introduction
 
 According to studies carried out by a very prestigious agency, more than 40 per cent of developers prefer to document code than to write code. What?
 
-My first reaction was think, ¿May be possible that the world is changing so fast? Then, Why I hadn't noticed until now?
+My first reaction was think, ¿May be possible that the world is changing so fast? Then, Why I hadn't noticed until now? I asked to other team developers , and They told me that they were agree with that idea.
 
-I asked to other team developers , if they believed there are certain (Agree)
+For my always was very boring add the formal documentation to the source code made by my. Particularly those functions which when you read the name, you can know all about that. Also hated, update the documentation with every change in the source code. 
 
-
-Mi primera reacción fue pensar, ¿Es posible que el mundo halla cambiado tan rápido sin que me halla dado cuenta? They told me that they were agree with that idea.
-
-Le pregunté a otros programadores del equipo si creían que el misterioso titular fuera cierto, y muy serios asintieron. Me inquietaba lo tedioso que resultaba para mi, comentar el código fuente que había escrito, sobre todo aquellas funciones que con solo leer el nombre ya se sabía lo que hacían. Además de tener que actualizar la documentación cada vez que se realizaba algún cambio.
-
-¿Por qué yo no lo disfrutaba y otras personas si? De ese dilema salí sólo tras las carcajadas de mis compañeros de equipo... Uff, menos mal que era una broma.
-
----
-
-###Desarrollo
-
-Muchos utilizamos herramientas como [YUIDocs](http://yui.github.io/yuidoc/), o [JSDocs](http://usejsdoc.org/), entre [otras](http://www.lsauer.com/2013/05/javascript-documentation-generator.html) para generar la documentación de nuestros proyectos. Estas necesitan una serie de parámetros de entrada que deben ser escritos de manera [explícita](http://metajack.wordpress.com/2008/07/01/the-state-of-javascript-documentation-tools/), por los programadores como por ejemplo:
-
-{% highlight javascript %}
-/**
- * Descripción
- * @method Nombre de la función
- * @param Parámetro A
- * @param Parámetro B
- * @return Valor que retorna
- */
-{% endhighlight %}
-
-Este proceso puede resultar algo tedioso, sobre todo si tenemos en cuenta que cuando ocurre un cambio en alguno de estos parámetros, como el nombre de la función por ejemplo, tenemos que actualizar la documentación correspondiente.
-
-También muchas veces hay partes de la documentación que pueden ser redundantes e innecesarias, es obvio que la función getNombre() devuelve el atributo nombre de la clase que la implemente, por tomar un ejemplo.
-
-Estos fenómenos toman proporciones significativas cuando nos tenemos que hacer cargo de proyectos bastante avanzados y que tienen una escasa documentación.
-
-
-Según [@evangoer](https://twitter.com/evangoer) en la conferencia ["Thinking of Documentation as Code"](http://www.youtube.com/watch?v=mEvvc80ZYU8), al documentar el código fuente es útil hacerse 3 preguntas:
-
-- ¿Qué es lo que hace el código? 
-- ¿Cómo es que lo hace? 
-- ¿Por qué lo hace?
-
-[SmartComments](http://smartcomments.github.io/), es una herramienta de código abierto escrita en JavaScript y que se ejecuta sobre [Node.js](http://nodejs.org/) mediante la que se puede automatizar y **acelerar** así considerablemente el proceso de generación de documentación. sobre todo respondiendo las preguntas (¿Qué? y ¿Cómo?). En la siguiente imagen se muestran las partes del ejemplo anterior que pueden ser generadas por [SmartComments](http://smartcomments.github.io/). 
-
-{% highlight javascript %}
-/**
- * Descripción
- * [@method Nombre_de_la_función] ------- SmartComments
- * [@param Parámetro_A] ----------------- SmartComments
- * [@param Parámetro_B] ----------------- SmartComments
- * [@return Valor_que_retorna] ---------- SmartComments
- */
-{% endhighlight %}
-
-Básicamente solo tendríamos que poner la descripción de nuestra función. O alguna otra explicación más detallada de ser necesario. 
-
-
-Algunas de las funcionalidades de [SmartComments](http://smartcomments.github.io/) son:
-
- - Generar la metainformación necesaria para la generación de documentación a ficheros completos, de manera individual, o que se encuentren dentro de una jerarquía de directorios determinada. 
-
- - [Plugin](http://smartcomments.github.io/#features) para (sublime text), que da acceso a las funciones de la aplicación a través de este editor y que además permite generar comentarios a una selección de texto, lo cual es una funcionalidad bastante útil.
+Why I could not enjoy that, and other developers yes? I escaped from this dilemma when I heard my teammates laughing. OMG, It was just a sick joke...
  
- - Personalización mediante plantillas para la generación de documentación a eventos, clases, atributos, entre otros. Y en dependencia del estilo de codificación de nuestra empresa o framework.
+---
 
- - Versión online a modo de demostración que puede ser utilizada para la generación de metainformación si no se desea instalar la aplicación.
+###Body
 
-Un caso de uso interesante planteado por [Mr. Rich Kilgore](https://github.com/rick-kilgore) es la utilización de [SmartComments](http://smartcomments.github.io/) es el siguente: 
+Some tools like [YUIDocs](http://yui.github.io/yuidoc/), [JSDocs](http://usejsdoc.org/) and [other](http://www.lsauer.com/2013/05/javascript-documentation-generator.html) are used by many developers to generate his projects's documentation.
 
-1. Se comentan se forma explícita solamente las funciones que son relevantes y se realizan los commit al control de versiones de esa manera.
+These tools need some input parameters, which should be written [explicitly](http://metajack.wordpress.com/2008/07/01/the-state-of-javascript-documentation-tools/) by the developers. For example:
 
-2. Usando una tarea de [Grunt](http://gruntjs.com/) Se copia todo el código fuente a una carpeta temporal, y se ejecuta [SmartComments](http://smartcomments.github.io/) para generar la metainformación de las funciones que tienen menos relevancia.
+{% highlight javascript %}
+/**
+ * Description
+ * @method Function Name's
+ * @param Param A
+ * @param Param B
+ * @return Return value
+ */
+{% endhighlight %} 
 
-3. Luego se ejecuta [YUIDocs](http://yui.github.io/yuidoc/), para generar la documentación API.
+It's a tedious process, especially taking into account that when some change is made in a source code related with some of these params, We could have to update the related documentation. It's becomes more significant, when we deal with well advanced projects, and that have a poor documentation.
 
-Esto ocurre de forma automatizada cada vez que se construye y se despliega el proyecto. La ventaja de esta filosofía de trabajo es que siempre la documentación API estará actualizada con los últimos cambios del código fuente. 
+According to the [@evangoer](https://twitter.com/evangoer) in tha conference ["Thinking of Documentation as Code"](http://www.youtube.com/watch?v=mEvvc80ZYU8), when documenting the source code, is useful to think about three questions.
 
-Hay que señalar que [SmartComments](http://smartcomments.github.io/) es solo una herramienta, y como herramienta al fin solo puede hacer (por ahora) una parte del proceso. Siempre existen casos que necesitan de la intervención humana. Sobre todo a la hora de querer expresar la verdadera semántica de determinado código.
+- What the code does?
+- How does it do it?
+- Why do it?
+
+[SmartComments](http://smartcomments.github.io/), is an open source tool
+written in JavaScript. Which can run under [Node.js](http://nodejs.org/).
+Using it you can automate the documentation generation process, resulting very beneficial in accelerating this process. [SmartComments](http://smartcomments.github.io/) can help us to generate things related to (What and How) questions.
+On the figure below you can see the portions of the previous example that can be generated using [SmartComments](http://smartcomments.github.io/).  
+
+
+{% highlight javascript %}
+/**
+ * Descripción
+ * [@method Function_name] ---------- SmartComments
+ * [@param Param_A] ----------------- SmartComments
+ * [@param Param_B] ----------------- SmartComments
+ * [@return Return_value] ----------- SmartComments
+ */
+{% endhighlight %}
+
+Basically, we only should to put our function description, or any other detailed explanation if necessary.
+
+Some [SmartComments](http://smartcomments.github.io/) features are:
+
+ - Generate the necessary metadata, to entire files, individually or inside some specifically folder. 
+
+ - [Sublime Text Plugin](http://smartcomments.github.io/#features), which gives us access to the application since this editor. A useful feature off this plugin is generate comments to a text selection.
+
+ - Templates customization to add other tags dynamically to the comments. Like @event, @class, @attribute and others. Acording to the framework used by you, or your personal code style.
+
+ -Online version demo that can be used for meta-information generation without to install the application.
+
+A real use case raised by [Mr. Rich Kilgore](https://github.com/rick-kilgore) is 
+this:
+
+1.  I've set it up so that we put our minimal comments in the sources and commit them into source control that way.
+
+2. Then, in our Gruntfile, to generate the docs I copy all the sources to a working dir, run smartcomments on them.
+
+3. Finally run [YUIDocs](http://yui.github.io/yuidoc/) to generate the docs.
+
+This happens every time we build and deploy our project. The main advantage of this aproach is that the API documentation is always up to date with the last changes in the source code.
+
+It should be noted, however, that [SmartComments](http://smartcomments.github.io/)is just a tool. There are always some situations that need the human intervention.
+In particular when we need to express the true meaning of the code.
 
 ---
 
-###Conclusiones
+###Conclusions
 
-[SmartComments](http://smartcomments.github.io/) es de mucha utilidad a en el proceso de generación de documentación, ya que mediante el mismo podemos ahorrarnos horas de esfuerzo, y fomentamos que nuestra documentación siempre esté actualizada con las últimas modificaciones en el código fuente. Si quieres colaborar con este proyecto open source, puedes hacerlo mediante [github](https://github.com/smartcomments/smartcomments).
+[SmartComments](http://smartcomments.github.io/) useful to automate documentation generation process, Using it you can save time and effort, allowing that your documentation can be always up to date, with last source code updates. If do you want to collaborate with this open source project you can find out at [github](https://github.com/smartcomments/smartcomments).
