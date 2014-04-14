@@ -73,7 +73,7 @@ Some [SmartComments](http://smartcomments.github.io/) features are:
 
  - Templates customization to add other tags dynamically to the comments. Like @event, @class, @attribute and others. Acording to the framework used by you, or your personal code style.
 
- -Online version demo that can be used for meta-information generation without to install the application.
+ - Online version demo that can be used for meta-information generation without to install the application.
 
 A real use case raised by [Mr. Rich Kilgore](https://github.com/rick-kilgore) is 
 this:
