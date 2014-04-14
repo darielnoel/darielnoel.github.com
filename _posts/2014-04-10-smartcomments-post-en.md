@@ -93,4 +93,4 @@ In particular when we need to express the true meaning of the code.
 
 ###Conclusions
 
-[SmartComments](http://smartcomments.github.io/) useful to automate documentation generation process, Using it you can save time and effort, allowing that your documentation can be always up to date, with last source code updates. If do you want to collaborate with this open source project you can find out at [github](https://github.com/smartcomments/smartcomments).
+[SmartComments](http://smartcomments.github.io/) is useful to automate documentation generation process, Using it you can save time and effort, allowing that your documentation can be always up to date, with last source code updates. If do you want to collaborate with this open source project you can find out at [github](https://github.com/smartcomments/smartcomments).
