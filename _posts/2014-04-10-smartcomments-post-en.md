@@ -1,21 +1,28 @@
 ---
 layout: post
-title: SmartComments, genera comentarios automáticamente al código javascript.
-description: "SmartComments, genera comentarios automáticamente al código javascript."
+title: SmartComments, automatically comments the JavaScript code.
+description: "SmartComments, automatically comments the JavaScript code."
 category: articles
-tags: [comentarios automáticos, javascript]
+tags: [automatically comments, javascript]
 comments: true
-share: true
+share: false
 ---
 ###Resumen
-[SmartComments](http://smartcomments.github.io/) es un módulo de Node.JS que puede ser útil a la hora de automatizar el proceso de generación de documentación, ahorrándonos horas de esfuerzo, y permitiendo que nuestra documentación siempre esté actualizada con los últimos cambios en el código fuente.
 
+[SmartComments](http://smartcomments.github.io/) is a module for Node. JS that can be useful to automate documentation generation process, Using it you can save time and effort, allowing that your documentation can be always up to date, with last source code updates.
 
 ###Introducción
 
-Según estudios realizados por una prestigiosa agencia más del 90% de los programadores prefieren documentar el código fuente a escribirlo. ¿Qué?
+According to studies carried out by a very prestigious agency, more than 40 per cent of developers prefer to document code than to write code. What?
 
-Mi primera reacción fue pensar, ¿Es posible que el mundo halla cambiado tan rápido sin que me halla dado cuenta? Le pregunté a otros programadores del equipo si creían que el misterioso titular fuera cierto, y muy serios asintieron. Me inquietaba lo tedioso que resultaba para mi, comentar el código fuente que había escrito, sobre todo aquellas funciones que con solo leer el nombre ya se sabía lo que hacían. Además de tener que actualizar la documentación cada vez que se realizaba algún cambio.
+My first reaction was think, ¿May be possible that the world is changing so fast? Then, Why I hadn't noticed until now?
+
+I asked to other team developers , if they believed there are certain (Agree)
+
+
+Mi primera reacción fue pensar, ¿Es posible que el mundo halla cambiado tan rápido sin que me halla dado cuenta? They told me that they were agree with that idea.
+
+Le pregunté a otros programadores del equipo si creían que el misterioso titular fuera cierto, y muy serios asintieron. Me inquietaba lo tedioso que resultaba para mi, comentar el código fuente que había escrito, sobre todo aquellas funciones que con solo leer el nombre ya se sabía lo que hacían. Además de tener que actualizar la documentación cada vez que se realizaba algún cambio.
 
 ¿Por qué yo no lo disfrutaba y otras personas si? De ese dilema salí sólo tras las carcajadas de mis compañeros de equipo... Uff, menos mal que era una broma.
 
