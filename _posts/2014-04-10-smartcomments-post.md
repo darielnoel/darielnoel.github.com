@@ -7,6 +7,9 @@ tags: [comentarios automáticos, javascript]
 comments: true
 share: true
 ---
+###Resumen
+[SmartComments](http://smartcomments.github.io/) es un módulo de Node.JS que puede ser útil a la hora de automatizar el proceso de generación de documentación, ahorrándonos horas de esfuerzo, y permitiendo que nuestra documentación siempre esté actualizada con los últimos cambios en el código fuente.
+
 
 ###Introducción
 
@@ -45,7 +48,7 @@ Según [@evangoer](https://twitter.com/evangoer) en la conferencia ["Thinking of
 - ¿Cómo es que lo hace? 
 - ¿Por qué lo hace?
 
-[SmartComments](http://smartcomments.github.io/), es una herramienta de código abierto escrita en [Node.js](http://nodejs.org/) mediante la que se puede automatizar y **acelerar** así considerablemente el proceso de generación de documentación. sobre todo respondiendo las preguntas (¿Qué? y ¿Cómo?). En la siguiente imagen se muestran las partes del ejemplo anterior que pueden ser generadas por [SmartComments](http://smartcomments.github.io/). 
+[SmartComments](http://smartcomments.github.io/), es una herramienta de código abierto escrita en JavaScript y corre sobre [Node.js](http://nodejs.org/) mediante la que se puede automatizar y **acelerar** así considerablemente el proceso de generación de documentación. sobre todo respondiendo las preguntas (¿Qué? y ¿Cómo?). En la siguiente imagen se muestran las partes del ejemplo anterior que pueden ser generadas por [SmartComments](http://smartcomments.github.io/). 
 
 {% highlight javascript %}
 /**
@@ -57,7 +60,7 @@ Según [@evangoer](https://twitter.com/evangoer) en la conferencia ["Thinking of
  */
 {% endhighlight %}
 
-Básicamente solo tendríamos que poner la descripción de nuestra función. O alguna otra explicación más detallada. 
+Básicamente solo tendríamos que poner la descripción de nuestra función. O alguna otra explicación más detallada de ser necesario. 
 
 
 Algunas de las funcionalidades de [SmartComments](http://smartcomments.github.io/) son:
@@ -86,4 +89,4 @@ Hay que señalar que [SmartComments](http://smartcomments.github.io/) es solo un
 
 ###Conclusiones
 
-[SmartComments](http://smartcomments.github.io/) puede ser muy útil a la hora de automatizar el proceso de generación de documentación, ahorrándonos horas de esfuerzo, y permitiendo que nuestra documentación siempre esté actualizada con los últimos cambios en el código fuente. Si quieres colaborar con este proyecto open source, puedes hacerlo mediante [github](https://github.com/smartcomments/smartcomments).
+[SmartComments](http://smartcomments.github.io/) es de mucha utilidad a en el proceso de generación de documentación, ya que mediante el mismo podemos ahorrarnos horas de esfuerzo, y fomentamos que nuestra documentación siempre esté actualizada con las últimas modificaciones en el código fuente. Si quieres colaborar con este proyecto open source, puedes hacerlo mediante [github](https://github.com/smartcomments/smartcomments).
