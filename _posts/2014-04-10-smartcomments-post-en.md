@@ -1,7 +1,7 @@
 ---
 layout: post
-title: SmartComments, automatically comments the JavaScript code.
-description: "SmartComments, automatically comments the JavaScript code."
+title: SmartComments, your project documentation always up to date.
+description: "SmartComments, your project documentation always up to date"
 category: articles
 tags: [automatically comments, javascript]
 comments: true
