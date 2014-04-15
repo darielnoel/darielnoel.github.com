@@ -68,7 +68,7 @@ Basically, we only should to put our function description, or any other detailed
 
 Some [SmartComments](http://smartcomments.github.io/) features are:
 
- - Generate the necessary metadata, to entire files, individually or inside some specific folder. 
+ - Generate the necessary meta-information, to entire files, individually or inside some specific folder. 
 
  - [Sublime Text Plugin](http://smartcomments.github.io/#features), which give us access to the application from this editor. A useful feature of this plugin is to generate comments to a text selection.
 
