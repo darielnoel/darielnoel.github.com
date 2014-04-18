@@ -5,7 +5,7 @@ description: "Características principales bibliotecas animación."
 category: articles
 tags: [animaciones, bibliotecas, javascript]
 comments: true
-share: true
+share: false
 ---
 
 He aquí lo que puede convertirse en mi próxima aventura, pero no pienso dar detalles hasta el final, solo pequeñas piezas que se irán juntando, creo que puede ser divertido.
@@ -36,6 +36,8 @@ Are you ready...
 
 - Tecnología predominante.
 	CSS
+
+No terminado...
 
 
 
