@@ -10,7 +10,11 @@ Front-End Engineer, experience with high performance interfaces, HTML5 applicati
 
 I feel very lucky to have worked on these projects:
 
-* [SmartComments](http://smartcomments.github.io/){:target="_blank"}
+* [AniJS](http://anijs.github.io/){:target="_blank"}
+
+	Declarative handling library for CSS animations. The main objective is to provide an eloquent, easy to translate, and quick to develop environment.
+
++ [SmartComments](http://smartcomments.github.io/){:target="_blank"}
 
 	It's a tool that allow you to create implicit comments from javascript source code. You can integrate it with javascript documentation generators like YUIDocs.
 

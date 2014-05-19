@@ -28,6 +28,8 @@ Que decirles que estoy muy contento de la aceptación que ha tenido por parte de
 
 - [PHP Magazin](http://phpmagazin.de/AniJS-173359)
 
+- [HTML 5 WEEKLY](http://html5weekly.com/issues/137) 
+
 
 A corto y mediano plazo, seguiré trabajando en mejorarla, con todas las sugerencias por parte de la comunidad, y con algunas otras ideas que tengo. En posteriores post les prometo comentarles más sobre el tema.
 
