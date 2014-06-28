@@ -38,7 +38,8 @@ No puedo terminar de escribir sin hablar de mis amigos, el Rene, Julius Paquito,
 Los globitos de la página principal fueron idea de Yolier, yo quería poner unas bolitas de colores, y el me convenció de usar alguna figura más fresca. 
 
 <figure>
-	<img src="/images/2014-05-18-anijs-mi-ultima-aventura/ponerimagen.jpg">
+	<img src="/images/2014-05-18-anijs-mi-ultima-aventura/amigos.jpg">
+	<p style="text-align:center">De izquierda a derecha, El Rene, Yo, Julius Paquito</p>
 </figure>
 
 También agradezco al Sr.Alex Young por escribir sobre AniJS en [DailyJS](http://dailyjs.com/2014/05/08/anijs/). Y a todas las personas que nos han ayudado con sus sugerencias a través de Twitter y Github.
