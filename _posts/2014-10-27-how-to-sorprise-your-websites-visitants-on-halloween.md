@@ -66,7 +66,7 @@ You can also use, other javascript libraries that allow to handle animations, li
 
 Surely you can find other interesting techniques, it is just a matter of using a little imagination and wanting that our users find something different when visiting our websites.
 
-Do you know other useful resources? Please share it ;) or find me on.[twitter](https://twitter.com/dariel_noel).
+Do you know other useful resources? Please share it ;) or find me on [twitter](https://twitter.com/dariel_noel).
 
 Happy Halloween :)
 
