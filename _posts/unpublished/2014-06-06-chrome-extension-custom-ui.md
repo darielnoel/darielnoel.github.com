@@ -37,7 +37,7 @@ Communication between both is impossible because cross-domain communication is a
 
 
 <figure>
-	<a href="http://anijs.github.io/examples/scrollreveal/"><img src="/images/2014-05-31-scrollreveal-anijs-demo/scrollreveal.png"></a>
+	<a href="https://anijs.github.io/examples/scrollreveal/"><img src="/images/2014-05-31-scrollreveal-anijs-demo/scrollreveal.png"></a>
 </figure>
 
 En el ejemplo se puede encontrar buena [documentación](http://anijs.github.io/examples/scrollreveal/), y el [código fuente](http://anijs.github.io/examples/scrollreveal/).

@@ -24,12 +24,12 @@ Here you can see some places to find them:
 
 **Before change the fonts**
 <figure>
-    <a href="http://anijs.github.io/"><img src="/images/2014-10-26-how-to-sorprise-your-websites-visitants-on-halloween/anijsbefore.png"></a>
+    <a href="https://anijs.github.io/"><img src="/images/2014-10-26-how-to-sorprise-your-websites-visitants-on-halloween/anijsbefore.png"></a>
 </figure>
 
 **After change the fonts**
 <figure>
-    <a href="http://anijs.github.io/"><img src="/images/2014-10-26-how-to-sorprise-your-websites-visitants-on-halloween/anijs-font-after.png"></a>
+    <a href="https://anijs.github.io/"><img src="/images/2014-10-26-how-to-sorprise-your-websites-visitants-on-halloween/anijs-font-after.png"></a>
 </figure>
 
 #2 - Change some icons and images
@@ -37,14 +37,14 @@ Here you can see some places to find them:
 You can replace some  images or icons to others relating to Halloween. You can find more than 500 free in [Flaticon.com](http://www.flaticon.com/search/halloween):
 
 <figure>
-    <a href="http://www.flaticon.com/search/halloween"><img src="/images/2014-10-26-how-to-sorprise-your-websites-visitants-on-halloween/halloweenvectors.png"></a>
+    <a href="https://www.flaticon.com/search/halloween"><img src="/images/2014-10-26-how-to-sorprise-your-websites-visitants-on-halloween/halloweenvectors.png"></a>
 </figure>
 
 [Flaticon.com](http://www.flaticon.com/search/halloween) allows to download the images as IconFonts, svg, png or psd. Which is an  amazing feature.
 
 **After change some images**
 <figure>
-    <a href="http://anijs.github.io/"><img src="/images/2014-10-26-how-to-sorprise-your-websites-visitants-on-halloween/anijs-icons-final.png"></a>
+    <a href="https://anijs.github.io/"><img src="/images/2014-10-26-how-to-sorprise-your-websites-visitants-on-halloween/anijs-icons-final.png"></a>
 </figure>
 
 
@@ -58,7 +58,7 @@ Similar to the easter eggs, we can add some animations to surprise our visitors 
 
 [AniJS Studio](https://chrome.google.com/webstore/detail/anijs-studio/alnnlebgnablnnbhidppfpcpmlopegib?hl=en) can be used. Which is a chrome extension that allow you to add animations and interactions to any web easily. After you add the animations, you can integrate it with your website. All of this without write any code.
 
-<iframe width="480" height="360" src="http://www.youtube.com/embed/4WWa2qcfCEk" frameborder="0"> </iframe>
+<iframe width="480" height="360" src="https://www.youtube.com/embed/4WWa2qcfCEk" frameborder="0"> </iframe>
 
 You can find the use instructions in its [oficial website](http://anijs.github.io/studio/#usage)
 

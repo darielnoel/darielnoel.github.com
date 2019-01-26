@@ -24,12 +24,12 @@ He aquí algunos sitios donde encontrarlas:
 
 **AniJS antes de cambiar la Tipografía**
 <figure>
-    <a href="http://anijs.github.io/"><img src="/images/2014-10-26-how-to-sorprise-your-websites-visitants-on-halloween/anijsbefore.png"></a>
+    <a href="https://anijs.github.io/"><img src="/images/2014-10-26-how-to-sorprise-your-websites-visitants-on-halloween/anijsbefore.png"></a>
 </figure>
 
 **AniJS después de cambiar la Tipografía**
 <figure>
-    <a href="http://anijs.github.io/"><img src="/images/2014-10-26-how-to-sorprise-your-websites-visitants-on-halloween/anijs-font-after.png"></a>
+    <a href="https://anijs.github.io/"><img src="/images/2014-10-26-how-to-sorprise-your-websites-visitants-on-halloween/anijs-font-after.png"></a>
 </figure>
 
 #2 - Cambiar algunos íconos e imágenes
@@ -37,14 +37,14 @@ He aquí algunos sitios donde encontrarlas:
 Cambiar algunas imágenes o íconos por otros alusivos a la fecha también puede funcionar. Puedes encontrar más de 500 gratuitos en [Flaticon.com](http://www.flaticon.com/search/halloween):
 
 <figure>
-    <a href="http://www.flaticon.com/search/halloween"><img src="/images/2014-10-26-how-to-sorprise-your-websites-visitants-on-halloween/halloweenvectors.png"></a>
+    <a href="https://www.flaticon.com/search/halloween"><img src="/images/2014-10-26-how-to-sorprise-your-websites-visitants-on-halloween/halloweenvectors.png"></a>
 </figure>
 
 Las imágenes de [Flaticon.com](http://www.flaticon.com/search/halloween) pueden ser descargadas como iconfonts, svg, png, psd.
 
 **AniJS después de cambiar algunas imágenes**
 <figure>
-    <a href="http://anijs.github.io/"><img src="/images/2014-10-26-how-to-sorprise-your-websites-visitants-on-halloween/anijs-icons-final.png"></a>
+    <a href="https://anijs.github.io/"><img src="/images/2014-10-26-how-to-sorprise-your-websites-visitants-on-halloween/anijs-icons-final.png"></a>
 </figure>
 
 
@@ -58,7 +58,7 @@ Similar a los huevos de pascua, podemos agregar algunas animaciones para sorpren
 
 Usted puede utilizar [AniJS Studio](https://chrome.google.com/webstore/detail/anijs-studio/alnnlebgnablnnbhidppfpcpmlopegib?hl=en), la cual es una extensión de chrome que le permitirá agregar animaciones a cualquier página web sin tener que programar.
 
-<iframe width="480" height="360" src="http://www.youtube.com/embed/4WWa2qcfCEk" frameborder="0"> </iframe>
+<iframe width="480" height="360" src="https://www.youtube.com/embed/4WWa2qcfCEk" frameborder="0"> </iframe>
 
 Usted puede encontrar una explicación de su uso en su [página oficial](http://anijs.github.io/studio/#usage)
 También puede utilizar JQuery, Velocity, u otras bibliotecas que permitan gestionar animaciones.

@@ -11,7 +11,7 @@ share: true
 Hola amigos,  heme aquí cumpliendo mi [promesa anterior]({% post_url 2014-04-02-helloworld %}), éste post es una pequeña recopilación de algunas de las comunidades de desarrollo FrontEnd de habla hispana.
 
 <figure>
-	<a href="http://html5facil.com/"><img src="/images/2014-04-03-comunidades-habla-hispana/html5-facil.png"></a>
+	<a href="https://html5facil.com/"><img src="/images/2014-04-03-comunidades-habla-hispana/html5-facil.png"></a>
 </figure>
 
 **Temáticas:** HTML5, CSS3, JavaScript
@@ -21,7 +21,7 @@ Hola amigos,  heme aquí cumpliendo mi [promesa anterior]({% post_url 2014-04-02
 ---
 
 <figure>
-	<a href="http://www.nodehispano.com"><img src="/images/2014-04-03-comunidades-habla-hispana/logo_nodehispano.jpg"></a>
+	<a href="https://www.nodehispano.com"><img src="/images/2014-04-03-comunidades-habla-hispana/logo_nodehispano.jpg"></a>
 </figure>
 
 **Temáticas:** Node.JS
@@ -31,7 +31,7 @@ Hola amigos,  heme aquí cumpliendo mi [promesa anterior]({% post_url 2014-04-02
 ---
 
 <figure>
-	<a href="http://html5spain.wordpress.com"><img src="/images/2014-04-03-comunidades-habla-hispana/html5spain.jpg"></a>
+	<a href="https://html5spain.wordpress.com"><img src="/images/2014-04-03-comunidades-habla-hispana/html5spain.jpg"></a>
 </figure>
 
 **Temáticas:** HTML5
@@ -41,7 +41,7 @@ Hola amigos,  heme aquí cumpliendo mi [promesa anterior]({% post_url 2014-04-02
 ---
 
 <figure>
-	<a href="http://yuiblog.es/"><img src="/images/2014-04-03-comunidades-habla-hispana/yuiblog-crop.jpeg"></a>
+	<a href="https://yuiblog.es/"><img src="/images/2014-04-03-comunidades-habla-hispana/yuiblog-crop.jpeg"></a>
 </figure>
 
 **Temáticas:** YUI3
@@ -51,7 +51,7 @@ Hola amigos,  heme aquí cumpliendo mi [promesa anterior]({% post_url 2014-04-02
 ---
 
 <figure>
-	<a href="http://plus.google.com/communities/116613330756223860984"><img src="/images/2014-04-03-comunidades-habla-hispana/comunidadweb.png"></a>
+	<a href="https://plus.google.com/communities/116613330756223860984"><img src="/images/2014-04-03-comunidades-habla-hispana/comunidadweb.png"></a>
 </figure>
 
 **Temáticas:** HTML5, CSS3, JAVASCRIPT, JQuery, NODE.JS, RESPONSIVE DESIGN
@@ -61,7 +61,7 @@ Hola amigos,  heme aquí cumpliendo mi [promesa anterior]({% post_url 2014-04-02
 ---
 
 <figure>
-	<a href="http://plus.google.com/communities/115308304903650949926/stream/12982d34-7499-413e-ab12-47b05e6ef69d"><img src="/images/2014-04-03-comunidades-habla-hispana/aprendiendoymejorando.jpg"></a>
+	<a href="https://plus.google.com/communities/115308304903650949926/stream/12982d34-7499-413e-ab12-47b05e6ef69d"><img src="/images/2014-04-03-comunidades-habla-hispana/aprendiendoymejorando.jpg"></a>
 </figure>
 
 **Temáticas:** HTML5, CSS3, JAVASCRIPT, JQuery, NODE.JS, RESPONSIVE DESIGN

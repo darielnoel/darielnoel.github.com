@@ -11,7 +11,7 @@ share: true
 Saludos, esta semana quiero compartir uno de los ejemplos que aparecen en el sitio oficial de [AniJS](http://anijs.github.io/) en el cual se muestra como **animar de manera declarativa** elementos DOM cuando entran en el **rango de visualización** de la pantalla, lo cual permite crear experiencias más frescas para los usuarios de nuestros sitios o aplicaciones webs.
 
 <figure>
-	<a href="http://anijs.github.io/examples/scrollreveal/"><img src="/images/2014-05-31-scrollreveal-anijs-demo/scrollreveal.png"></a>
+	<a href="https://anijs.github.io/examples/scrollreveal/"><img src="/images/2014-05-31-scrollreveal-anijs-demo/scrollreveal.png"></a>
 </figure>
 
 En el ejemplo se puede encontrar buena [documentación](http://anijs.github.io/examples/scrollreveal/), y el [código fuente](http://anijs.github.io/examples/scrollreveal/).
