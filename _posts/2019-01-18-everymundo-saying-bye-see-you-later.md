@@ -3,10 +3,12 @@ layout: post
 title: Everymundo - Saying Bye, See you later
 description: Farewell message to my dear co-workers and friends at Everymundo.
 category: articles
-tags: [farewell, frienship, life lessons, reflexion]
+tags: [farewell, friendship, life lessons, reflexion]
 comments: true
 share: true
 ---
+
+*Farewell, letter to all my dear friends and colleagues at Everymundo the day before leaving.*
 
 Hi team,
 
