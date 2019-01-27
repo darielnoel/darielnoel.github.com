@@ -8,7 +8,7 @@ comments: true
 share: true
 ---
 
-*Farewell, letter to all my dear friends and colleagues at Everymundo the day before leaving.*
+> *Farewell, letter to all my dear friends and colleagues at Everymundo the day before leaving.*
 
 Hi team,
 
