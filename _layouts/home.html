@@ -1,0 +1,160 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>{% if page.title %}{{ page.title }} {% endif %}</title>
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
+  
+  {% if site.owner.twitter %}<!-- Twitter Cards -->
+  {% if page.image.feature %}<meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="{{ site.url }}/images/{{ page.image.feature }}">
+  {% else %}<meta name="twitter:card" content="summary">
+  <meta name="twitter:image" content="{% if page.image.thumb %}{{ site.url }}/images/{{ page.image.thumb }}{% else %}{{ site.url }}/images/{{ site.logo }}{% endif %}">{% endif %}
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:creator" content="@{{ site.owner.twitter }}">{% endif %}
+  
+  <!-- Open Graph -->
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  
+  {% if site.google_verify %}<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
+  {% if site.bing_verify %}<meta name="msvalidate.01" content="{{ site.bing_verify }}">{% endif %}
+  
+  {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
+  <link rel="canonical" href="{{ canonical }}">
+  <link href="{{ site.url }}/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+  {% if site.owner.google_plus %}<link rel="author" href="{{ site.owner.google_plus }}?rel=author">{% endif %}
+  
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-5P8CBBH2');</script>
+  <!-- End Google Tag Manager -->
+  
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- For all browsers -->
+  <link rel="stylesheet" href="{{ site.url }}/assets/css/main.min.css">
+  <!-- Webfonts -->
+  <script src="//use.edgefonts.net/source-sans-pro:n2,i2,n3,i3,n4,i4,n6,i6,n7,i7,n9,i9;source-code-pro:n4,n7;volkhov.js"></script>
+  
+  <meta http-equiv="cleartype" content="on">
+  
+  <!-- Load Modernizr -->
+  <script src="{{ site.url }}/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+  
+  <!-- Icons -->
+  <!-- 16x16 -->
+  <link rel="shortcut icon" href="{{ site.url }}/favicon.ico">
+  <!-- 32x32 -->
+  <link rel="shortcut icon" href="{{ site.url }}/favicon.png">
+  <!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+  <link rel="apple-touch-icon-precomposed" href="{{ site.url }}/images/apple-touch-icon-precomposed.png">
+  <!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.url }}/images/apple-touch-icon-72x72-precomposed.png">
+  <!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.url }}/images/apple-touch-icon-114x114-precomposed.png">
+  <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/images/apple-touch-icon-144x144-precomposed.png">
+  <style>
+    @media (max-width: 768px) { /* Adjust the breakpoint as needed */
+      .footer-wrapper {
+        display: none;
+      }
+    }
+  </style> 
+</head>
+
+<body id="page">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5P8CBBH2"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->  
+
+  <div class="navigation-wrapper">
+    <nav role="navigation" id="site-nav" class="animated drop">
+        <ul>
+            {% for link in site.links %}
+        <li>
+          {% if link.external %}
+            <a href="{{ link.url }}">{{ link.title }}</a>
+          {% else %}
+            <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
+          {% endif %}
+        </li>
+            {% endfor %}
+            <li><a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>
+            {% if site.search %}<li class="dosearch"><i class="icon-search"></i> Search</li>{% endif %}
+        </ul>
+    </nav>
+  </div><!-- /.navigation-wrapper -->
+  
+  {% include browser-upgrade.html %}
+  
+  {% if site.search %}<div class="search-wrapper">
+    <div class="search-form">
+      <input type="text" class="search-field" placeholder="Search...">
+      <i class="icon-remove-sign icon-2x"></i>
+      <ul class="search-results post-list"></ul><!-- /.search-results -->
+    </div><!-- /.search-form -->
+  </div><!-- ./search-wrapper -->{% endif %}
+  
+  {% if page.image.feature %}<header class="masthead">
+    {% if site.logo != null %}
+      <div class="wrap">
+        <a href="{{ site.url }}" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated bounceInDown"></a>
+      </div>
+    {% endif %}
+  </header><!-- /.masthead -->
+  {% else %}<header class="masthead">
+    <div class="wrap">
+          {% if site.logo != null %}
+          <a href="{{ site.url }}" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated fadeInUp"></a>
+          {% endif %}
+
+      <h1 class="site-title animated fadeIn"><a href="{{ site.url }}">Dariel Noel</a></h1>
+      <h2 class="site-description animated fadeIn" itemprop="description">Welcome to my corner of the internet!</h2>
+       
+    </div>
+  </header><!-- /.masthead -->{% endif %}
+  
+
+<div id="main" role="main" style="display: flex; align-items: center; justify-content: center; margin: 0">
+  <article class="entry" style="width: 100%; max-width: 400px;border-bottom:none">
+    <div style="text-align: center; background-color: white; padding: 20px; border-radius: 10px;">
+        <a href="https://news.darielnoel.com/" target="_blank" style="display: block; margin: 10px; padding: 10px; color: black; background-color: rgb(238, 238, 238); text-decoration: none; border-radius: 5px; font-size: 18px">💌 Personal Blog (My Journey)</a>
+        <a href="https://woxo.tech/" target="_blank" style="display: block; margin: 10px; padding: 10px; color: black; background-color: rgb(238, 238, 238); text-decoration: none; border-radius: 5px; font-size: 18px">📽️ WOXO (Make Videos with AI)</a>
+        <a href="https://woxo.tech/instagram-widget" target="_blank" style="display: block; margin: 10px; padding: 10px; color: black; background-color: rgb(238, 238, 238); text-decoration: none; border-radius: 5px; font-size: 18px">🔨 Social Widgets Maker!</a>
+        <a href="https://front10.com/" target="_blank" style="display: block; margin: 10px; padding: 10px; color: black; background-color: rgb(238, 238, 238); text-decoration: none; border-radius: 5px; font-size: 18px">🌐 Front10 (Crafting Dev Magic!)</a>
+        <a href="https://twitter.com/dariel_noel" target="_blank" style="display: block; margin: 10px; padding: 10px; color: black; background-color: rgb(238, 238, 238); text-decoration: none; border-radius: 5px; font-size: 18px">❤️ Find me on Twitter</a>
+        <a href="https://www.linkedin.com/in/darielnoel/" target="_blank" style="display: block; margin: 10px; padding: 10px; color: black; background-color: rgb(238, 238, 238); text-decoration: none; border-radius: 5px; font-size: 18px">🔗 Connect on LinkedIn!</a>
+
+        <!-- Add more links as necessary -->
+    </div>
+</article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper" style="width: 100%; text-align: center; padding: 10px; position: fixed; bottom: 0; left: 0;">
+  <footer role="contentinfo">
+    {% include footer.html %}
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+{% include scripts.html %}          
+
+</body>
+</html>

@@ -1,6 +1,6 @@
 title:            Dariel Noel
 description:      I’m a 27 year old front-end engineer. I love Javascript and work in open source projects :)
-logo:             dariel_noel.png
+logo:             avatar_dariel2.jpeg
 disqus_shortname: darielnoelgithubio
 search:           true
 
@@ -11,19 +11,19 @@ url:              https://darielnoel.com
 # Owner/author information
 owner:
   name:           Dariel Noel
-  avatar:         dariel_noel.png
+  avatar:         avatar_dariel2.jpeg
   email:          darielnoel@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter: https://twitter.com/dariel_noel
   facebook:
   github: https://github.com/darielnoel
   stackexchange:
-  linkedin: http://ve.linkedin.com/in/darielnoel
+  linkedin: https://www.linkedin.com/in/darielnoel/
   instagram:
   flickr:
   tumblr:
   # For Google Authorship https://plus.google.com/authorship
-  google_plus: https://plus.google.com/+DarielNoelVilaPlagado
+  # google_plus: https://plus.google.com/+DarielNoelVilaPlagado
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:  UA-44521541-3
